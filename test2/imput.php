@@ -4,21 +4,18 @@
 </head>
     <body>
 
-	<? 
-	include 'menu.php'?>
+	<? include 'menu.php'?>
 	
-<form action="" method="post">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-Valori numerice: <input type="text" name="numar"/>
-<input type="submit">
+<form action="" method="get">
+	Nume<input type="text" name="name"><br>
+	E-mail<input type="text" name="email"><br>
+	Valorilor numerice<input type="text" name="number">
+	<input type="submit">
 </form>
-	
 
 <?
-if( !empty($_POST) ) {
-	
-	print_r($_POST);
+if( !empty($_GET)) {
+	print_r($_GET);
 }
 ?>
 
