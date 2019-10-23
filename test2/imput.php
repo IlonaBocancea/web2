@@ -7,7 +7,7 @@
 	<? 
 	include 'menu.php'?>
 	
-<form action="welcome_get.php" method="get">
+<form action="" method="post">
 Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
 Valori numerice: <input type="text" name="numar"/>
