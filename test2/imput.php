@@ -9,7 +9,7 @@
 <form action="" method="get">
 	Nume<input type="text" name="name"><br>
 	E-mail<input type="text" name="email"><br>
-	Valorilor numerice<input type="text" name="number">
+	Valori numerice<input type="text" name="number">
 	<input type="submit">
 </form>
 
