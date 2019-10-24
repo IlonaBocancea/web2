@@ -1,0 +1,14 @@
+{
+    "name": "user/test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ilona",
+            "email": "ilona@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/valitron": "^1.4"
+    }
+}
